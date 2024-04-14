@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://example.com/p/%E5%BB%BA%E7%AB%99%E6%97%A5%E5%BF%97/'>
 
-<link rel="stylesheet" href="/scss/style.min.349a58fc0f8997673edf60e91829999c678ff97f5f16b4a9a3ccde4dad5de307.css"><meta property='og:title' content="建站日志~使用Hugo+Stack搭建起一个博客">
+<link rel="stylesheet" href="/scss/style.min.f5bb092e18b20568cc982e1c09c9fc8028e0ae924b823b3afbc4d8c08a745cc3.css"><meta property='og:title' content="建站日志~使用Hugo+Stack搭建起一个博客">
 <meta property='og:description' content="#\r缘起\r”记录思考是提高思考质量的关键“ 因为先前并没有一个记录自己所学的习惯，在无数次看到一些似曾相识但是忘记了解决方法的问题后，痛定思痛，决定搭建一个自己的博客，用来记录自己的学习、生活。 #\r使用Hugo+Stack搭建博客\r#\r为什么选择Hugo？\rHugo\u00a0是由 Go 语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。 主流的博客框架有Hexo、WordPress、Hugo等等，最终，我选择了Hugo，原因如下 Hugo是一个静态博客框架，搭配Github Page，零成本搭建博客~ 快速生成，调试方便。在源文件上的修改基本都能实时渲染到网页上，非常方便。 依靠Go语言进行开发，性能强大。近期有在研究Go，对于Hugo有天然滤镜。 构建速度快，大量文章的情况下也能快速生成，适合长期使用。 #\r安装Hugo\rHugo安装可以参考\u00a0官方文档中的安装方法 我的系统是Windows 11，采用文档中预构建的二进制文件方式安装，版本应为拓展版，即版本后有extended的版本。 下载完成后将其添加进环境变量Path中。 安装完成后，可以输入以下命令检查Hugo版本。 1 hugo version 若版本后带+extended，则版本安装成功。 #\r创建博客\r使用Hugo的第一步便是创建站点，参考官方文档，需要注意： 如果您是 Windows 用户： 不要使用命令提示符 不要使用 Windows PowerShell 从\u00a0PowerShell\u00a0或 Linux 终端（如 WSL 或 Git Bash）运行这些命令 PowerShell 和 Windows PowerShell\u00a0是不同的应用程序。 使用Git Bash，执行以下命令新建站点。 1 hugo new site 站点目录 #\r安装主题及使用\r接下来我们进行主题安装，主题可以在Hugo Theme或Github找到。这里我选择的是Stack模板，简约大方现代化，符合我的审美。安装主题可以在themes文件夹中执行clone将主题仓库克隆到本地，也可以直接下载解压到themes文件夹，但要注意下载解压完成的文件夹需要修改文件夹名称，将后面的-master删除。这里我采用了clone方式进行安装。 1 2 cd themes/ git clone https://github.">
 <meta property='og:url' content='https://example.com/p/%E5%BB%BA%E7%AB%99%E6%97%A5%E5%BF%97/'>
 <meta property='og:site_name' content='莲子の奇妙记事簿'>
