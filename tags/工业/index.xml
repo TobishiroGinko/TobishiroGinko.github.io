@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>工业 on 莲子の奇妙记事簿</title>
+        <link>https://example.com/tags/%E5%B7%A5%E4%B8%9A/</link>
+        <description>Recent content in 工业 on 莲子の奇妙记事簿</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>莲子</copyright><atom:link href="https://example.com/tags/%E5%B7%A5%E4%B8%9A/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
+</rss>
